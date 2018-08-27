@@ -1,0 +1,11 @@
+<h1 class="title is-1">7 Wonders of the World</h1>
+
+<div class="columns is-multiline is-mobile">
+  <div class="column is-4" ng-repeat="wonder in wonders">
+    <a ui-sref="wondersShow({ id: wonder._id })">
+    <img ng-src="{{ wonder.image }}" alt="">
+    <h2 class="title is-2">{{ wonder.name }}</h2>
+    <h3 class="subtitle is-3">{{ wonder.country }}</h3>
+    </a>
+  </div>
+</div>

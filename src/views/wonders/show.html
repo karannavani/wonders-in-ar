@@ -1,0 +1,26 @@
+<div class="columns is-multiline is-mobile">
+  <div class="column is-6 is-multiline">
+    <h1 class="title is-1">{{ wonder.name }}</h1>
+    <h2 class="subtitle is-2">{{ wonder.country }}</h2>
+    <div class="column has-text-centered">
+      <div class="card">
+        <div class="card-content">
+          <h4 class="title is-4">The weather is {{ weatherSummary }}</h4>
+          <figure class="column is-centered">
+            <h3 class="title is-3" >{{ temp }}&#176;</h3>
+            <canvas id="{{ icon }}" width="64" height="64"></canvas>
+          </figure>
+
+        </div>
+      </div>
+    </div>
+    <img ng-src="{{ wonder.image }}" alt="{{ wonder.name }}">
+  </div>
+  <div class="column is-6 is-multiline">
+    <div class="map" ng-map></div>
+  </div>
+  <div class="column is-12">
+      <div class="streetView" ng-view></div>
+  </div>
+
+</div>
