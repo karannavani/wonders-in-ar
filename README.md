@@ -5,4 +5,4 @@ This is an AngularJS app that contains the Seven Wonders of the World, and uses 
 
 This is primarily a playground for me test out Augmented Reality by bringing the wonders to life using AR.js.
 
-##### If you wish to try it out – [here's the link to my scanner and instructions](https://github.com/karannavani/wonders-ar-scanner).
+If you wish to try it out – [here's the link to my scanner and instructions](https://github.com/karannavani/wonders-ar-scanner).
