@@ -17,7 +17,7 @@
   "dependencies": {
     "@uirouter/angular": "ui-router/angular",
     "@uirouter/angularjs": "^1.0.15",
-    "angular": "^1.7.9",
+    "angular": "^1.8.3",
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.1",
     "cors": "^2.8.3",
